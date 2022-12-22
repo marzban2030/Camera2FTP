@@ -162,7 +162,10 @@ public class MainActivity extends AppCompatActivity {
         handler.postDelayed(runnable = new Runnable() {
          public void run() {
             handler.postDelayed(runnable, delay);
-            Toast.makeText(getApplicationContext(),"Timelapsed capturing ...",Toast.LENGTH_SHORT).show();
+            if(connectedFTP == true){
+              Toast.makeText(getApplicationContext(),"Timelapsed capturing ...",Toast.LENGTH_SHORT).show();
+              takePicture();
+            }
          }
       }, delay);
     }
