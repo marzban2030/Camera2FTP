@@ -88,6 +88,10 @@ public class MainActivity extends AppCompatActivity {
 
     private Handler backgroundHandler;
     private HandlerThread backgroundThread;
+    
+    private Handler handler = new Handler();
+    private Runnable runnable;
+    private int delay = 10000;
 
     private Boolean flashSupported;
     private Boolean flashEnabled = false;
@@ -154,6 +158,13 @@ public class MainActivity extends AppCompatActivity {
         readStoredPref();
 
         ftpClient = new FTPWrapper();
+        
+        handler.postDelayed(runnable = new Runnable() {
+         public void run() {
+            handler.postDelayed(runnable, delay);
+            Toast.makeText(getApplicationContext(),"Timelapsed capturing ...",Toast.LENGTH_SHORT).show();
+         }
+      }, delay);
     }
 
     /**
