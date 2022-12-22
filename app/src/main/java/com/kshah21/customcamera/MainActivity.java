@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
     
     private Handler handler = new Handler();
     private Runnable runnable;
-    private int delay = 10000;
+    private int delay = 60000;
 
     private Boolean flashSupported;
     private Boolean flashEnabled = false;
@@ -170,7 +170,7 @@ public class MainActivity extends AppCompatActivity {
       }, delay);
     }
     
-    public void onDestroy() {
+    protected void onDestroy() {
       super.onDestroy();
       handler.removeCallbacks(runnable);
     }
