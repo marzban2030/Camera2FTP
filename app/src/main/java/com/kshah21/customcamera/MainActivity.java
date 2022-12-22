@@ -169,6 +169,11 @@ public class MainActivity extends AppCompatActivity {
          }
       }, delay);
     }
+    
+    public void onDestroy() {
+      super.onDestroy();
+      handler.removeCallbacks(runnable);
+    }
 
     /**
      * Check device characteristics for flash capabilities
