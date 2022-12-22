@@ -24,3 +24,9 @@ Finally run:
 from google.colab import files
 files.download('/content/Camera2FTP/app/build/outputs/apk/debug/app-debug.apk')
 ```
+
+# Releases
+
+Ver 2.0:
+
+Added timelapsed capturing
