@@ -25,6 +25,8 @@ from google.colab import files
 files.download('/content/Camera2FTP/app/build/outputs/apk/debug/app-debug.apk')
 ```
 
+![image1](https://github.com/marzban2030/Camera2FTP/raw/master/Build.gif)
+
 # Releases
 
 Ver 2.0:
