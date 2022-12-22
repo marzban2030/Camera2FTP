@@ -30,3 +30,7 @@ files.download('/content/Camera2FTP/app/build/outputs/apk/debug/app-debug.apk')
 Ver 2.0:
 
 Added timelapsed capturing
+
+# Set timelapsed capturing period time
+
+Change "private int delay = 60000;" in "MainActivity.java" file which its value is in milliseconds.
