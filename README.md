@@ -1,5 +1,5 @@
 # Camera2FTP
-Custom Android Camera App - Utilizing Camera2 API and Uploads to FTP Server
+Timelapsed capturing Android Camera App - Utilizing Camera2 API and Uploads to FTP Server periodically.
 
 # Build APK in Google Colab
 Run below commands in Google Colab:
