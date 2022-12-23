@@ -1,7 +1,7 @@
 # Camera2FTP
 Timelapsed capturing Android Camera App - Utilizing Camera2 API and Uploads to FTP Server periodically.
 
-# Build in Colab
+# Build
 Run below commands in Colab:
 ```
 !apt remove java-common
