@@ -249,10 +249,10 @@ public class MainActivity extends AppCompatActivity {
 
         if(host == null){
             Log.i(TAG, "readStoredPref: initially null");
-            host = "ftp.dlptest.com";
-            username = "dlpuser";
-            password = "hZ3Xr8alJPl8TtE";
-            destDirectory = "";
+            host = "ftphost.net";
+            username = "marzban2030";
+            password = "password";
+            destDirectory = "/data";
             storeFTPPrefs();
         }
         else{
