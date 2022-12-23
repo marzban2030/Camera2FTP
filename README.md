@@ -1,8 +1,8 @@
 # Camera2FTP
 Timelapsed capturing Android Camera App - Utilizing Camera2 API and Uploads to FTP Server periodically.
 
-# Build APK in Google Colab
-Run below commands in Google Colab:
+# Build in Colab
+Run below commands in Colab:
 ```
 !apt remove java-common
 !apt install openjdk-8-jdk
@@ -25,14 +25,12 @@ from google.colab import files
 files.download('/content/Camera2FTP/app/build/outputs/apk/debug/app-debug.apk')
 ```
 
-![image1](https://github.com/marzban2030/Camera2FTP/raw/master/Build.gif)
-
 # Releases
 
 Ver 2.0:
 
 Added timelapsed capturing
 
-# Set timelapsed capturing period time
+# Use
 
 Change "private int delay = 60000;" in "MainActivity.java" file which its value is in milliseconds.
