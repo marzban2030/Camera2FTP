@@ -2,8 +2,8 @@
     <string name="app_name">CustomCamera</string>
     <string name="take_picture">Take Picture</string>
 
-    <string name="ftp_box_endpoint">ftpserver.net</string>
-    <string name="ftp_box_user">marzban2030</string>
-    <string name="ftp_box_password">password</string>
-    <string name="ftp_box_dest">/data</string>
+    <string name="host">ftpserver.net</string>
+    <string name="username">marzban2030</string>
+    <string name="password">password</string>
+    <string name="directory">/data</string>
 </resources>
