@@ -1,9 +1,4 @@
 <resources>
     <string name="app_name">CustomCamera</string>
     <string name="take_picture">Take Picture</string>
-
-    <string name="host">ftpserver.net</string>
-    <string name="username">marzban2030</string>
-    <string name="password">password</string>
-    <string name="directory">/data</string>
 </resources>
